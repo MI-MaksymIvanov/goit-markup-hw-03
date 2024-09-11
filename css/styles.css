@@ -273,6 +273,10 @@ a {
 
 /* main section four */
 
+.main-section-four {
+  padding: 120px 0;
+}
+
 .main-section-four-title {
   font-weight: 700;
   font-size: 36px;
@@ -281,14 +285,30 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
-.main-section-four-subtitle {
+.main-section-four-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+.main-section-four-items {
+}
+
+.main-section-four-info-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+. .main-section-four-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .main-section-four-description {
