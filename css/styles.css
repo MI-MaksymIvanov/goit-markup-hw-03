@@ -23,6 +23,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
@@ -257,7 +261,7 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.main-section-three-info-conatiner {
+.main-section-three-info-container {
   padding: 32px 0;
 }
 
@@ -295,7 +299,6 @@ a {
   row-gap: 48px;
   justify-content: space-between; /* Рівномірний розподіл елементів */
   padding: 0;
-  list-style: none;
 }
 .main-section-four-items {
   width: calc((100% - 48px) / 3);
